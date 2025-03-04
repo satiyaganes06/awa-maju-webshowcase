@@ -1,0 +1,111 @@
+
+import { Button } from "@/components/ui/button";
+import { Facebook, Instagram, Mail, MapPin, Phone } from "lucide-react";
+
+const Footer = () => {
+  return (
+    <footer className="bg-secondary py-16">
+      <div className="container mx-auto px-6 md:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+          <div>
+            <div className="mb-6">
+              <a href="#" className="flex items-center">
+                <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80">
+                  AWA MAJU
+                </span>
+              </a>
+            </div>
+            <p className="text-muted-foreground mb-6">
+              Delivering exceptional food contract services to MNC branches in Penang, Malaysia. Quality, reliability, and innovation define our approach.
+            </p>
+            <div className="flex space-x-4">
+              <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
+                <Facebook size={20} />
+              </Button>
+              <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
+                <Instagram size={20} />
+              </Button>
+              <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
+                <Mail size={20} />
+              </Button>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-6">Quick Links</h3>
+            <ul className="space-y-4">
+              <li>
+                <a href="#home" className="text-muted-foreground hover:text-primary transition-colors">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#services" className="text-muted-foreground hover:text-primary transition-colors">
+                  Services
+                </a>
+              </li>
+              <li>
+                <a href="#about" className="text-muted-foreground hover:text-primary transition-colors">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="#why-us" className="text-muted-foreground hover:text-primary transition-colors">
+                  Why Choose Us
+                </a>
+              </li>
+              <li>
+                <a href="#testimonials" className="text-muted-foreground hover:text-primary transition-colors">
+                  Testimonials
+                </a>
+              </li>
+              <li>
+                <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-6">Contact Us</h3>
+            <ul className="space-y-4">
+              <li className="flex items-start space-x-3">
+                <MapPin size={20} className="text-primary flex-shrink-0 mt-1" />
+                <span className="text-muted-foreground">
+                  Batu Maung, Penang, Malaysia
+                </span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <Phone size={20} className="text-primary flex-shrink-0" />
+                <span className="text-muted-foreground">+60 12-345-6789</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <Mail size={20} className="text-primary flex-shrink-0" />
+                <span className="text-muted-foreground">info@awamaju.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-16 pt-8 border-t border-border">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <p className="text-muted-foreground text-sm mb-4 md:mb-0">
+              © {new Date().getFullYear()} Awa Maju Jaya Enterprise. All rights reserved.
+            </p>
+            <div className="flex space-x-6">
+              <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                Privacy Policy
+              </a>
+              <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                Terms of Service
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
