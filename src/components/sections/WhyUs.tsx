@@ -82,13 +82,50 @@ const WhyUs = () => {
         </div>
 
         <div className="mt-16 text-center reveal">
-          <p className="text-xl font-medium mb-4">Trusted by Leading Companies in Penang</p>
-          <div className="flex flex-wrap justify-center gap-8 md:gap-16 opacity-70">
-            {/* Placeholder logos - would be replaced with actual client logos */}
-            <div className="w-32 h-12 bg-muted rounded flex items-center justify-center">Client 1</div>
-            <div className="w-32 h-12 bg-muted rounded flex items-center justify-center">Client 2</div>
-            <div className="w-32 h-12 bg-muted rounded flex items-center justify-center">Client 3</div>
-            <div className="w-32 h-12 bg-muted rounded flex items-center justify-center">Client 4</div>
+          <p className="text-xl font-medium mb-8">Trusted by Leading Companies in Penang</p>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
+            <div className="client-logo reveal" style={{animationDelay: "100ms"}}>
+              <img 
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Intel_logo_2023.svg/2560px-Intel_logo_2023.svg.png" 
+                alt="Intel" 
+                className="h-12 w-auto mx-auto opacity-80 hover:opacity-100 transition-opacity duration-300"
+              />
+            </div>
+            <div className="client-logo reveal" style={{animationDelay: "200ms"}}>
+              <img 
+                src="https://1000logos.net/wp-content/uploads/2020/05/Micron-Logo.png" 
+                alt="Micron" 
+                className="h-12 w-auto mx-auto opacity-80 hover:opacity-100 transition-opacity duration-300"
+              />
+            </div>
+            <div className="client-logo reveal" style={{animationDelay: "300ms"}}>
+              <img 
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Dell_Technologies_logo.svg/1200px-Dell_Technologies_logo.svg.png" 
+                alt="Dell" 
+                className="h-12 w-auto mx-auto opacity-80 hover:opacity-100 transition-opacity duration-300"
+              />
+            </div>
+            <div className="client-logo reveal" style={{animationDelay: "400ms"}}>
+              <img 
+                src="https://amcham.com.my/wp-content/uploads/640px-Flex_logo_2015.svg_.png" 
+                alt="Flex" 
+                className="h-12 w-auto mx-auto opacity-80 hover:opacity-100 transition-opacity duration-300"
+              />
+            </div>
+            <div className="client-logo reveal" style={{animationDelay: "500ms"}}>
+              <img 
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/ABB_logo.svg/1200px-ABB_logo.svg.png" 
+                alt="ABB" 
+                className="h-12 w-auto mx-auto opacity-80 hover:opacity-100 transition-opacity duration-300"
+              />
+            </div>
+            <div className="client-logo reveal" style={{animationDelay: "600ms"}}>
+              <img 
+                src="https://cdn.cookielaw.org/logos/21dc6d31-09cc-497c-8a2e-296e24b82a89/92b85ddc-9302-4a67-925d-4b9140ea0561/be3db524-465d-490f-b436-0d860c3eee9d/Plexus_Logo_Grey_Reg.jpg" 
+                alt="Plexus" 
+                className="h-12 w-auto mx-auto opacity-80 hover:opacity-100 transition-opacity duration-300"
+              />
+            </div>
           </div>
         </div>
       </div>
