@@ -1,7 +1,7 @@
 
 import { useEffect } from "react";
 import ServiceCard from "../ui/ServiceCard";
-import { Chef, Coffee, Utensils, UtensilsCrossed, Clock, Users } from "lucide-react";
+import { ChefHat, Coffee, Utensils, UtensilsCrossed, Clock, Users } from "lucide-react";
 
 const Services = () => {
   useEffect(() => {
@@ -48,7 +48,7 @@ const Services = () => {
             delay={100}
           />
           <ServiceCard
-            icon={<Chef className="w-6 h-6" />}
+            icon={<ChefHat className="w-6 h-6" />}
             title="Executive Dining Services"
             description="Premium catering for executive meetings, client visits, and special corporate events."
             delay={200}
