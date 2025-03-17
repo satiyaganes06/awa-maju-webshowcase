@@ -45,7 +45,7 @@ const Hero = () => {
             <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-primary/10 rounded-full blur-3xl"></div>
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl">
               <AnimatedImage
-                src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                src="https://kingsxi.com.au/wp-content/uploads/2024/08/AdobeStock_644498647-1024x724.jpeg"
                 alt="Corporate dining experience"
                 className="w-full h-[500px] object-cover rounded-2xl"
                 animation="scale-in"

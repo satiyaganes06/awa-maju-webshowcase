@@ -35,7 +35,7 @@ const About = () => {
               <div className="absolute -top-6 -left-6 w-32 h-32 bg-primary/10 rounded-full blur-2xl"></div>
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl">
                 <AnimatedImage
-                  src="https://images.unsplash.com/photo-1592861956120-e524fc739696?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                  src="https://t4.ftcdn.net/jpg/09/00/46/95/360_F_900469541_5Dwzw2bWohU2C69hln3opfDsmoRVPCPC.jpg"
                   alt="Our team at work"
                   className="w-full h-[500px] object-cover rounded-2xl"
                   animation="fade-in"
