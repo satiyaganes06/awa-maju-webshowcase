@@ -110,11 +110,11 @@ const About = () => {
             <div className="relative">
               <div className="absolute -top-6 -right-6 w-32 h-32 bg-primary/10 rounded-full blur-2xl"></div>
               <div className="relative overflow-hidden rounded-2xl border-2 border-primary/20 shadow-xl">
-                {/* Replace with actual photo of Abdul Wahab */}
+                {/* Updated founder photo */}
                 <AnimatedImage
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                  src="/lovable-uploads/3499d130-f2d0-4916-95da-b08d725c6260.png"
                   alt="Abdul Wahab Bin Abdul Razak - Managing Director"
-                  className="w-full h-[400px] object-cover"
+                  className="w-full h-[400px] object-cover object-center"
                   animation="fade-in"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
