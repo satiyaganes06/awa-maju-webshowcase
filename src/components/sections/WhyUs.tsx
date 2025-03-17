@@ -81,6 +81,33 @@ const WhyUs = () => {
           </div>
         </div>
 
+        {/* <!-- Stats Section --> */}
+        <section className="py-16 bg-accent">
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+              <div data-aos="fade-up" data-aos-delay="100">
+                <div className="text-4xl md:text-5xl font-bold text-primary mb-2 counter" data-target="12">0</div>
+                <p className="text-secondary font-medium">Years Experience</p>
+              </div>
+              
+              <div data-aos="fade-up" data-aos-delay="200">
+                <div className="text-4xl md:text-5xl font-bold text-primary mb-2 counter" data-target="25">0</div>
+                <p className="text-secondary font-medium">Corporate Clients</p>
+              </div>
+              
+              <div data-aos="fade-up" data-aos-delay="300">
+                <div className="text-4xl md:text-5xl font-bold text-primary mb-2 counter" data-target="15000">0</div>
+                <p className="text-secondary font-medium">Meals Served Daily</p>
+              </div>
+              
+              <div data-aos="fade-up" data-aos-delay="400">
+                <div className="text-4xl md:text-5xl font-bold text-primary mb-2 counter" data-target="98">0</div>
+                <p className="text-secondary font-medium">Client Satisfaction %</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <div className="mt-16 text-center reveal">
           <p className="text-xl font-medium mb-8">Trusted by Leading Companies in Penang</p>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
