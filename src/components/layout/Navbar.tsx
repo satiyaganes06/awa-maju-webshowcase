@@ -24,16 +24,18 @@ const Navbar = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "py-4 glass-bg shadow-subtle"
-          : "py-6 bg-transparent"
+          ? "py-3 bg-black shadow-subtle"
+          : "py-4 bg-black bg-opacity-90"
       }`}
     >
       <div className="container mx-auto px-6 md:px-8 flex items-center justify-between">
         <div className="flex items-center">
           <a href="#" className="flex items-center">
-            <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80">
-              AWA MAJU
-            </span>
+            <img 
+              src="https://firebasestorage.googleapis.com/v0/b/mad-mini-project-c822d.appspot.com/o/Test%2Fawa%20maju%20logo.png?alt=media&token=665928f0-d023-4eff-976f-9319e4df6f0d" 
+              alt="AWA MAJU Logo" 
+              className="h-12 w-auto"
+            />
           </a>
         </div>
 
@@ -43,7 +45,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#home"
-                className="text-foreground hover:text-primary transition-colors animated-link"
+                className="text-white hover:text-primary transition-colors animated-link"
               >
                 Home
               </a>
@@ -51,7 +53,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#services"
-                className="text-foreground hover:text-primary transition-colors animated-link"
+                className="text-white hover:text-primary transition-colors animated-link"
               >
                 Services
               </a>
@@ -59,7 +61,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#about"
-                className="text-foreground hover:text-primary transition-colors animated-link"
+                className="text-white hover:text-primary transition-colors animated-link"
               >
                 About
               </a>
@@ -67,7 +69,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#why-us"
-                className="text-foreground hover:text-primary transition-colors animated-link"
+                className="text-white hover:text-primary transition-colors animated-link"
               >
                 Why Us
               </a>
@@ -75,7 +77,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#testimonials"
-                className="text-foreground hover:text-primary transition-colors animated-link"
+                className="text-white hover:text-primary transition-colors animated-link"
               >
                 Testimonials
               </a>
@@ -91,7 +93,7 @@ const Navbar = () => {
           <Button
             variant="ghost"
             size="icon"
-            className="text-foreground"
+            className="text-white"
             onClick={toggleMobileMenu}
           >
             {isMobileMenuOpen ? (
@@ -105,7 +107,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden fixed inset-0 z-40 glass-bg pt-24 transform transition-transform duration-300 ease-in-out ${
+        className={`md:hidden fixed inset-0 z-40 bg-black pt-24 transform transition-transform duration-300 ease-in-out ${
           isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -114,7 +116,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#home"
-                className="text-xl font-medium block py-2"
+                className="text-xl font-medium block py-2 text-white"
                 onClick={toggleMobileMenu}
               >
                 Home
@@ -123,7 +125,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#services"
-                className="text-xl font-medium block py-2"
+                className="text-xl font-medium block py-2 text-white"
                 onClick={toggleMobileMenu}
               >
                 Services
@@ -132,7 +134,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#about"
-                className="text-xl font-medium block py-2"
+                className="text-xl font-medium block py-2 text-white"
                 onClick={toggleMobileMenu}
               >
                 About
@@ -141,7 +143,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#why-us"
-                className="text-xl font-medium block py-2"
+                className="text-xl font-medium block py-2 text-white"
                 onClick={toggleMobileMenu}
               >
                 Why Us
@@ -150,7 +152,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#testimonials"
-                className="text-xl font-medium block py-2"
+                className="text-xl font-medium block py-2 text-white"
                 onClick={toggleMobileMenu}
               >
                 Testimonials
