@@ -9,6 +9,7 @@ import WhyUs from "@/components/sections/WhyUs";
 import Testimonials from "@/components/sections/Testimonials";
 import Contact from "@/components/sections/Contact";
 import OrganizationChart from "@/components/sections/OrganizationChart";
+import { TimelineDemo } from "@/components/sections/TimelineDemo";
 
 const Index = () => {
   useEffect(() => {
@@ -46,6 +47,7 @@ const Index = () => {
       <Hero />
       <Services />
       <About />
+      <TimelineDemo />
       <OrganizationChart />
       <WhyUs />
       <Testimonials />
