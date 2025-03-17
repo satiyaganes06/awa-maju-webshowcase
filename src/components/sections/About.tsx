@@ -81,9 +81,7 @@ const About = () => {
               </div>
             </div>
             
-            <Button size="lg" variant="outline" asChild>
-              <a href="#organization">View Our Team</a>
-            </Button>
+            
           </div>
         </div>
 
