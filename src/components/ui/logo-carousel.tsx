@@ -3,7 +3,6 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import Image from "next/image";
 
 interface Logo {
   id: number;
@@ -55,11 +54,9 @@ function LogoColumn({ logos, columnIndex, currentTime }: LogoColumnProps) {
             transition: { duration: 0.3 },
           }}
         >
-          <Image
+          <img
             src={currentLogo.src}
             alt={currentLogo.name}
-            width={120}
-            height={40}
             className="h-auto w-auto max-h-[80%] max-w-[80%] object-contain"
           />
         </motion.div>
