@@ -52,7 +52,7 @@ const About = () => {
               The Story of <span className="text-primary">Awa Maju Jaya</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              Founded in Penang, Awa Maju Jaya Enterprise has been delivering exceptional food contract services to multinational companies since 2010. We combine Malaysian culinary traditions with international standards to create memorable dining experiences.
+              A.W.A Maju Jaya is a leading provider of premium catering services, known for quality, reliability, and customer satisfaction. Since 1995, we have delivered exceptional catering solutions, ensuring high standards of food quality and hygiene. Offering 24/7 catering services, we create customized menus to meet diverse tastes and dietary needs, enhancing the dining experience.
             </p>
             
             <div className="mb-8">
@@ -60,7 +60,7 @@ const About = () => {
                 <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-semibold mb-1">Our Vision</h3>
-                  <p className="text-muted-foreground">To be the premier food service provider for corporations in Malaysia, renowned for quality, innovation, and service excellence.</p>
+                  <p className="text-muted-foreground">To be the premier choice for catering services in Penang, renowned for our excellence in quality, taste, and customer satisfaction.</p>
                 </div>
               </div>
               
@@ -68,22 +68,63 @@ const About = () => {
                 <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-semibold mb-1">Our Mission</h3>
-                  <p className="text-muted-foreground">Delivering exceptional culinary experiences that enhance workplace satisfaction while upholding the highest standards of quality, hygiene, and sustainability.</p>
+                  <p className="text-muted-foreground">To serve the best and most delicious cuisine with every meal crafted to tell a story, catering to diverse tastes and dietary needs through personalized menu options.</p>
                 </div>
               </div>
               
               <div className="flex items-start gap-3">
                 <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="font-semibold mb-1">Our Values</h3>
-                  <p className="text-muted-foreground">Excellence, integrity, innovation, and community - these core values guide every aspect of our service delivery and business relationships.</p>
+                  <h3 className="font-semibold mb-1">Our Strengths</h3>
+                  <p className="text-muted-foreground">Versatile solutions for daily meals and special events, commitment to quality with fresh ingredients, and reliable, timely, and efficient service.</p>
                 </div>
               </div>
             </div>
             
             <Button size="lg" variant="outline" asChild>
-              <a href="#contact">Learn More About Us</a>
+              <a href="#organization">View Our Team</a>
             </Button>
+          </div>
+        </div>
+
+        {/* Managing Director Section */}
+        <div className="mt-24 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="reveal-left order-2 md:order-1">
+            <div className="rounded-lg p-6 relative bg-gradient-to-r from-primary/5 to-primary/10 border border-primary/20">
+              <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/10 rounded-full blur-2xl"></div>
+              <h3 className="text-2xl font-bold mb-2">Abdul Wahab Bin Abdul Razak</h3>
+              <p className="text-primary font-medium mb-4">Managing Director</p>
+              <p className="text-muted-foreground mb-6">
+                With over 25 years of experience in the food industry, Abdul Wahab has been the driving force behind 
+                A.W.A Maju Jaya's success. His vision, leadership, and commitment to excellence have established 
+                the company as a leader in catering services throughout Penang.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <span className="bg-primary/10 text-primary text-sm px-3 py-1 rounded-full">Visionary Leadership</span>
+                <span className="bg-primary/10 text-primary text-sm px-3 py-1 rounded-full">Culinary Expert</span>
+                <span className="bg-primary/10 text-primary text-sm px-3 py-1 rounded-full">Business Innovator</span>
+              </div>
+            </div>
+          </div>
+          <div className="reveal-right order-1 md:order-2">
+            <div className="relative">
+              <div className="absolute -top-6 -right-6 w-32 h-32 bg-primary/10 rounded-full blur-2xl"></div>
+              <div className="relative overflow-hidden rounded-2xl border-2 border-primary/20 shadow-xl">
+                {/* Replace with actual photo of Abdul Wahab */}
+                <AnimatedImage
+                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                  alt="Abdul Wahab Bin Abdul Razak - Managing Director"
+                  className="w-full h-[400px] object-cover"
+                  animation="fade-in"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+                  <div className="animate-float">
+                    <h4 className="text-white font-bold text-xl">Abdul Wahab Bin Abdul Razak</h4>
+                    <p className="text-white/90">Founder & Managing Director</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

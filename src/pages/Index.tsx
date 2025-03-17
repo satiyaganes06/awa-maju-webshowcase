@@ -8,6 +8,7 @@ import About from "@/components/sections/About";
 import WhyUs from "@/components/sections/WhyUs";
 import Testimonials from "@/components/sections/Testimonials";
 import Contact from "@/components/sections/Contact";
+import OrganizationChart from "@/components/sections/OrganizationChart";
 
 const Index = () => {
   useEffect(() => {
@@ -45,6 +46,7 @@ const Index = () => {
       <Hero />
       <Services />
       <About />
+      <OrganizationChart />
       <WhyUs />
       <Testimonials />
       <Contact />
