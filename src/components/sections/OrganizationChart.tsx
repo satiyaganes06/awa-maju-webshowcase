@@ -89,7 +89,7 @@ const OrganizationChart = () => {
                   />
                 </div>
                 <h3 className="font-bold text-xl">Abdul Wahab Bin Abdul Razak</h3>
-                <p className="text-primary font-medium">Managing Director</p>
+                <p className="text-primary font-medium">Founder</p>
               </div>
             </div>
           </div>

@@ -120,7 +120,7 @@ const About = () => {
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
                   <div className="animate-float">
                     <h4 className="text-white font-bold text-xl">Abdul Wahab Bin Abdul Razak</h4>
-                    <p className="text-white/90">Founder & Managing Director</p>
+                    <p className="text-white/90">Founder</p>
                   </div>
                 </div>
               </div>
