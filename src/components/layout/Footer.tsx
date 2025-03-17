@@ -19,12 +19,7 @@ const Footer = () => {
               Delivering exceptional food contract services to MNC branches in Penang, Malaysia. Quality, reliability, and innovation define our approach.
             </p>
             <div className="flex space-x-4">
-              <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
-                <Facebook size={20} />
-              </Button>
-              <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
-                <Instagram size={20} />
-              </Button>
+            
               <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
                 <Mail size={20} />
               </Button>
@@ -73,7 +68,7 @@ const Footer = () => {
               <li className="flex items-start space-x-3">
                 <MapPin size={20} className="text-primary flex-shrink-0 mt-1" />
                 <span className="text-muted-foreground">
-                  Batu Maung, Penang, Malaysia
+                  1-33a, Persiaran Cassia Barat 3, Bandar Cassia, 14110 Simpang Ampat, Pulau Pinang
                 </span>
               </li>
               <li className="flex items-center space-x-3">
