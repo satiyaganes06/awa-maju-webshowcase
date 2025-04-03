@@ -92,7 +92,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-medium mb-1">Location</h4>
                     <p className="text-muted-foreground">
-                      Batu Maung, Penang, Malaysia
+                      1-33a, Persiaran Cassia Barat 3, Bandar Cassia, 14110 Simpang Ampat, Pulau Pinang
                     </p>
                   </div>
                 </div>
@@ -103,7 +103,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium mb-1">Phone</h4>
-                    <p className="text-muted-foreground">+60 12-345-6789</p>
+                    <p className="text-muted-foreground">+60 11-1656 7866</p>
                   </div>
                 </div>
                 
@@ -113,7 +113,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium mb-1">Email</h4>
-                    <p className="text-muted-foreground">info@awamaju.com</p>
+                    <p className="text-muted-foreground">hafiz@awamaju.com</p>
                   </div>
                 </div>
                 
