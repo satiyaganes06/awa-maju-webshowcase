@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <a href="#" className="flex items-center">
             <img 
-              src="https://firebasestorage.googleapis.com/v0/b/mad-mini-project-c822d.appspot.com/o/Test%2Fawa%20maju%20logo.png?alt=media&token=665928f0-d023-4eff-976f-9319e4df6f0d" 
+              src="/lovable-uploads/logo.png" 
               alt="AWA MAJU Logo" 
               className="h-12 w-auto"
             />

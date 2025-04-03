@@ -86,7 +86,7 @@ const About = () => {
         </div>
 
         {/* Managing Director Section */}
-        <div className="mt-24 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        {/* <div className="mt-24 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="reveal-left order-2 md:order-1">
             <div className="rounded-lg p-6 relative bg-gradient-to-r from-primary/5 to-primary/10 border border-primary/20">
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/10 rounded-full blur-2xl"></div>
@@ -109,7 +109,7 @@ const About = () => {
               <div className="absolute -top-6 -right-6 w-32 h-32 bg-primary/10 rounded-full blur-2xl"></div>
               <div className="relative overflow-hidden rounded-2xl border-2 border-primary/20 shadow-xl">
                 {/* Updated founder photo */}
-                <AnimatedImage
+               {/*  <AnimatedImage
                   src="/lovable-uploads/3499d130-f2d0-4916-95da-b08d725c6260.png"
                   alt="Abdul Wahab Bin Abdul Razak - Managing Director"
                   className="w-full h-[400px] object-cover object-center"
@@ -124,7 +124,7 @@ const About = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

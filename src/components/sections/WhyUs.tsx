@@ -83,7 +83,7 @@ const WhyUs = () => {
 
         <div className="mt-16 text-center reveal">
           <p className="text-xl font-medium mb-8">Trusted by Leading Companies in Penang</p>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
+          <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-8 items-center">
             
             <div className="client-logo reveal" style={{animationDelay: "200ms"}}>
               <img 
