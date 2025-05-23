@@ -49,10 +49,10 @@ const About = () => {
               <p className="text-primary font-medium text-sm">About Us</p>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              The Story of <span className="text-primary">Awa Maju Jaya</span>
+              The Story of <span className="text-primary">Awa Maju Jaya (M) Sdn Bhd</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              A.W.A Maju Jaya is a leading provider of premium catering services, known for quality, reliability, and customer satisfaction. Since 1995, we have delivered exceptional catering solutions, ensuring high standards of food quality and hygiene. Offering 24/7 catering services, we create customized menus to meet diverse tastes and dietary needs, enhancing the dining experience.
+              Awa Maju Jaya (M) Sdn Bhd is a leading provider of premium catering services, known for quality, reliability, and customer satisfaction. Since 1995, we have delivered exceptional catering solutions, ensuring high standards of food quality and hygiene. Offering 24/7 catering services, we create customized menus to meet diverse tastes and dietary needs, enhancing the dining experience.
             </p>
             
             <div className="mb-8">

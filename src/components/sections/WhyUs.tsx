@@ -36,7 +36,7 @@ const WhyUs = () => {
             What Sets Us Apart
           </h2>
           <p className="text-lg text-muted-foreground">
-            Discover the unique advantages that make Awa Maju Jaya Enterprise the preferred food service partner for leading multinational companies in Penang.
+            Discover the unique advantages that make Awa Maju Jaya (M) Sdn Bhd the preferred food service partner for leading multinational companies in Penang.
           </p>
         </div>
 
