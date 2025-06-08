@@ -72,10 +72,10 @@ const Footer = () => {
                   1-33a, Persiaran Cassia Barat 3, Bandar Cassia, 14110 Simpang Ampat, Pulau Pinang
                 </span>
               </li>
-              <li className="flex items-center space-x-3">
+              {/* <li className="flex items-center space-x-3">
                 <Phone size={20} className="text-primary flex-shrink-0" />
                 <span className="text-gray-400">+60 11-1656 7866</span>
-              </li>
+              </li> */}
               <li className="flex items-center space-x-3">
                 <Mail size={20} className="text-primary flex-shrink-0" />
                 <span className="text-gray-400">contact@awamaju.com</span>
